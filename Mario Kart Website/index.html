@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Mario Kart Wii Characters
+    </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="small icon"
+        href="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ed991cf4-7c8c-4530-b6ba-a3abf3ab2eae/dcn2tsb-cb75e88e-e24a-4eb4-98e7-34a10d6ecbfd.png/v1/fill/w_400,h_399/super_mario__super_mushroom_2d_by_joshuat1306_dcn2tsb-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9Mzk5IiwicGF0aCI6IlwvZlwvZWQ5OTFjZjQtN2M4Yy00NTMwLWI2YmEtYTNhYmYzYWIyZWFlXC9kY24ydHNiLWNiNzVlODhlLWUyNGEtNGViNC05OGU3LTM0YTEwZDZlY2JmZC5wbmciLCJ3aWR0aCI6Ijw9NDAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.7FfQ0H58Gq3E4Dm6n7cUEg9vL_mZzekkLTxdJl7418M">
+    <style>
+        :root {
+            --red: #C2352D;
+        }
+
+        html {
+            margin: 0%;
+            padding: 0%;
+            overflow-x: hidden;
+        }
+
+        body {
+            background-image: url(https://i.ibb.co/qY2rKnV/mariokart-bg.png);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .header {
+            border-radius: 15px;
+            margin: auto;
+            margin-top: 20px;
+            background-position: left;
+            background-image: url(https://w0.peakpx.com/wallpaper/403/905/HD-wallpaper-mario-mario-kart-8-deluxe.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+
+        .nintendo-logo {
+            width: 150px;
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+
+        .title-logo {
+            width: 350px;
+            margin: auto;
+            margin-top: 75px;
+        }
+
+        .mario-kart {
+            width: 80%;
+            margin: auto;
+        }
+
+        .box {
+            background-color: white;
+            margin: 10px;
+            border-radius: 15px;
+            padding: 15px;
+            box-shadow: 5px 5px 20px rgb(51, 51, 51);
+        }
+
+        .category {
+            background-color: rgba(255, 255, 255, 0.548);
+            padding: 10px;
+            margin-bottom: 10px;
+            margin-top: 50px;
+        }
+
+        .category-name {
+            font-family: 'Poppins', sans-serif;
+            color: black;
+            text-align: center;
+            margin: 0;
+        }
+
+        .character-name {
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .character-pic {
+            width: 200px;
+            margin: 15px;
+        }
+
+        .species,
+        .desc,
+        .unlock {
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            font-size: 10px;
+            color: gray;
+        }
+
+        .species-ans,
+        .desc-ans {
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            font-size: 15px;
+            border-bottom: 1px solid rgba(107, 107, 107, 0.384);
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+        }
+
+        .unlock-ans {
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            font-size: 15px;
+        }
+
+        .footer {
+            background-color: var(--red);
+            padding-top: 40px;
+            padding-bottom: 20px;
+            margin-top: 20px;
+        }
+
+        .nintendo-logo-bw {
+            width: 250px;
+        }
+
+        .footer-subtitle {
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            color: white;
+            margin-top: 15px;
+            font-size: 13px;
+        }
+
+        #myBtn {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 30px;
+            z-index: 99;
+            font-size: 18px;
+            border: none;
+            outline: none;
+            background-color: #C2352D;
+            color: white;
+            cursor: pointer;
+            padding: 15px;
+            border-radius: 4px;
+            box-shadow: 5px 5px 20px rgba(51, 51, 51, 0.568);
+
+        }
+
+        #myBtn:hover {
+            background-color: #555;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <div class="container-fluid content">
+
+        <div class="row">
+
+            <!-- header -->
+            <div class="col-10 col-sm-10 col-lg-11 header">
+                <div class="col-md-7 col-lg-5">
+                    <div class="row">
+                        <img src="https://i.ibb.co/RSjrYQQ/image.png" class="nintendo-logo">
+                    </div>
+                    <div class="row">
+                        <img src="https://i.ibb.co/NZ0qwXw/Untitled-design-23.png" class="title-logo">
+                    </div>
+                </div>
+
+                <div class="col-md-7 col-lg-7">
+                    <div class="row">
+                        <img src="https://i.ibb.co/9HqzZVK/mario-kart-2.png" class="mario-kart">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- button -->
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+        
+        <div class="row category">
+            <h2 class="category-name">THE LIGHTWEIGHT GROUP</h2>
+        </div>
+
+        <div class="row justify-content-center">
+            <!-- lightweight characters -->
+
+            <!-- Baby Mario -->
+            <div class="col-10 col-lg-3 col-md-5 box">
+                <div class="row">
+                    <h2 class="character-name">Baby Mario</h2>
+                </div>
+                <div class="row justify-content-center">
+                    <img src="https://i.ibb.co/Qc2jPdx/Untitled-design-25.png" class="character-pic">
+                </div>
+                <div class="row">
+                    <p class="species">Species</p>
+                    <h2 class="species-ans">Human</h2>
+                    <p class="desc">Description</p>
+                    <h2 class="desc-ans">The infant form of Mario.</h2>
+                    <p class="unlock">Unlockable in Mario Kart Wii</p>
+                    <h2 class="unlock-ans">Already Unlocked in Mario Kart Wii.</h2>
+                </div>
+            </div>
+            
+            <!-- Baby Luigi -->
+            <div class="col-10 col-md-5 col-lg-3 box">
+                <div class="row">
+                    <h2 class="character-name">Baby Luigi</h2>
+                </div>
+                <div class="row justify-content-center">
+                    <img src="https://i.ibb.co/9qjM9N0/2.png" class="character-pic">
+                </div>
+                <div class="row">
+                    <p class="species">Species</p>
+                    <h2 class="species-ans">Human</h2>
+                    <p class="desc">Description</p>
+                    <h2 class="desc-ans">The infant form of Luigi.</h2>
+                    <p class="unlock">Unlockable in Mario Kart Wii</p>
+                    <h2 class="unlock-ans">Unlock 8 Fast Staff ghosts in Time Trial.</h2>
+                </div>
+            </div>
+            <!-- Baby Peach -->
+            <div class="col-10 col-lg-3 col-md-5 box">
+                <div class="row">
+                    <h2 class="character-name">Baby Peach</h2>
+                </div>
+                <div class="row justify-content-center">
+                    <img src="https://i.ibb.co/fNjFrhL/3.png" class="character-pic">
+                </div>
+                <div class="row">
+                    <p class="species">Species</p>
+                    <h2 class="species-ans">Human</h2>
+                    <p class="desc">Description</p>
+                    <h2 class="desc-ans">Also referred to as Baby Princess Peach or Baby Princess. The infant form
+                        of
+                        Princess Peach.</h2>
+                    <p class="unlock">Unlockable in Mario Kart Wii</p>
+                    <h2 class="unlock-ans">Already Unlocked in Mario Kart Wii.</h2>
+                </div>
+            </div>
+            <!-- Baby Daisy -->
+            <div class="col-10 col-lg-3 col-md-5 box">
+                <div class="row">
+                    <h2 class="character-name">Baby Daisy</h2>
+                </div>
+                <div class="row justify-content-center">
+                    <img src="https://i.ibb.co/52xfN0Z/4.png" class="character-pic">
+                </div>
+                <div class="row">
+                    <p class="species">Species</p>
+                    <h2 class="species-ans">Human</h2>
+                    <p class="desc">Description</p>
+                    <h2 class="desc-ans">The infant form of Princess Daisy.</h2>
+                    <p class="unlock">Unlockable in Mario Kart Wii</p>
+                    <h2 class="unlock-ans">Get A star rank on every Nitro Cup (Mushroom, Flower, Star, Special).
+                    </h2>
+                </div>
+            </div>
+            <!-- Toad -->
+            <div class="col-10 col-lg-3 col-md-5 box">
+                <div class="row">
+                    <h2 class="character-name">Toad</h2>
+                </div>
+                <div class="row justify-content-center">
+                    <img src="https://i.ibb.co/fM6xSxZ/5.png" class="character-pic">
+                </div>
+                <div class="row">
+                    <p class="species">Species</p>
+                    <h2 class="species-ans">Toad</h2>
+                    <p class="desc">Description</p>
+                    <h2 class="desc-ans">He is Princess Peach's attendant and a longtime protector of the Mushroom
+                        Kingdom.</h2>
+                    <p class="unlock">Unlockable in Mario Kart Wii</p>
+                    <h2 class="unlock-ans">Already Unlocked in Mario Kart Wii.</h2>
+                </div>
+            </div>
+            <!-- Toadette -->
+            <div class="col-10 col-lg-3 col-md-5 box">
+                <div class="row">
+                    <h2 class="character-name">Toadette</h2>
+                </div>
+                <div class="row justify-content-center">
+                    <img src="https://i.ibb.co/sJm69zJ/6.png" class="character-pic">
+                </div>
+                <div class="row">
+                    <p class="species">Species</p>
+                    <h2 class="species-ans">Toad</h2>
+                    <p class="desc">Description</p>
+                    <h2 class="desc-ans">She is the most commonly recurring female Toad in the Mario franchise.</h2>
+                    <p class="unlock">Unlockable in Mario Kart Wii</p>
+                    <h2 class="unlock-ans">Play all of the Time Trial Courses.</h2>
+                </div>
+            </div>
+            <!-- Koopa Troopa -->
+            <div class="col-10 col-lg-3 col-md-5 box">
+                <div class="row">
+                    <h2 class="character-name">Koopa Troopa</h2>
+                </div>
+                <div class="row justify-content-center">
+                    <img src="https://i.ibb.co/zQfvMQD/7.png" class="character-pic">
+                </div>
+                <div class="row">
+                    <p class="species">Species</p>
+                    <h2 class="species-ans">Koopa</h2>
+                    <p class="desc">Description</p>
+                    <h2 class="desc-ans">Usually displayed as foot soldiers of the Koopa Troop, under the direct
+                        leadership of Bowser.</h2>
+                    <p class="unlock">Unlockable in Mario Kart Wii</p>
+                    <h2 class="unlock-ans">Get a Star Ranking in every 100cc Retro cup (Shell, Banana, Leaf, Lightning).
+                    </h2>
+                </div>
+            </div>
+            <!-- Dry Bones -->
+            <div class="col-10 col-lg-3 col-md-5 box">
+                <div class="row">
+                    <h2 class="character-name">Dry Bones</h2>
+                </div>
+                <div class="row justify-content-center">
+                    <img src="https://i.ibb.co/SR6mVPh/8.png" class="character-pic">
+                </div>
+                <div class="row">
+                    <p class="species">Species</p>
+                    <h2 class="species-ans">Skeletal Koopa</h2>
+                    <p class="desc">Description</p>
+                    <h2 class="desc-ans">Skeletal versions of Koopa Troopas that are mainly found in towers, castles,
+                        and deserts.</h2>
+                    <p class="unlock">Unlockable in Mario Kart Wii</p>
+                    <h2 class="unlock-ans">Win 100cc Leaf Cup.</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="row category">
+            <h2 class="category-name">THE MEDIUMWEIGHT GROUP</h2>
+        </div>
+
+        <div class="row justify-content-center">
+            <!-- mediumweight characters -->
+            <!-- Mario -->
+            <div class="col-10 col-lg-3 col-md-5 box" >
+                <div class="row">
+                    <h2 class="character-name">Mario</h2>
+                </div>
+                <div class="row justify-content-center">
+                    <img src="https://i.ibb.co/gjdyV03/9.png" class="character-pic">
+                </div>
+                <div class="row">
+                    <p class="species">Species</p>
+                    <h2 class="species-ans">Human</h2>
+                    <p class="desc">Description</p>
+                    <h2 class="desc-ans">The main character and titular protagonist of the long-running and highly
+                        successful video game franchise of the same name. </h2>
+                    <p class="unlock">Unlockable in Mario Kart Wii</p>
+                    <h2 class="unlock-ans">Already Unlocked in Mario Kart Wii.</h2>
+                </div>
+            </div>
+            <!-- Luigi -->
+            <div class="col-10 col-lg-3 col-md-5 box">
+                <div class="row">
+                    <h2 class="character-name">Luigi</h2>
+                </div>
+                <div class="row justify-content-center">
+                    <img src="https://i.ibb.co/31s50Tp/Untitled-design-26.png" class="character-pic">
+                </div>
+                <div class="row">
+                    <p class="species">Species</p>
+                    <h2 class="species-ans">Human</h2>
+                    <p class="desc">Description</p>
+                    <h2 class="desc-ans">Mario's younger twin brother, the secondary protagonist of the Mario franchise.
+                    </h2>
+                    <p class="unlock">Unlockable in Mario Kart Wii</p>
+                    <h2 class="unlock-ans">Already Unlocked in Mario Kart Wii.</h2>
+                </div>
+            </div>
+            <!-- Peach -->
+            <div class="col-10 col-lg-3 col-md-5 box">
+                <div class="row">
+                    <h2 class="character-name">Peach</h2>
+                </div>
+                <div class="row justify-content-center">
+                    <img src="https://i.ibb.co/vdvpBjM/11.png" class="character-pic">
+                </div>
+                <div class="row">
+                    <p class="species">Species</p>
+                    <h2 class="species-ans">Human</h2>
+                    <p class="desc">Description</p>
+                    <h2 class="desc-ans">A main character in the Mario franchise and the princess of the Mushroom
+                        Kingdom. </h2>
+                    <p class="unlock">Unlockable in Mario Kart Wii</p>
+                    <h2 class="unlock-ans">Already Unlocked in Mario Kart Wii.</h2>
+                </div>
+            </div>
+            <!-- Daisy -->
+            <div class="col-10 col-lg-3 col-md-5 box">
+                <div class="row">
+                    <h2 class="character-name">Daisy</h2>
+                </div>
+                <div class="row justify-content-center">
+                    <img src="https://i.ibb.co/sPgVWNV/12.png" class="character-pic">
+                </div>
+                <div class="row">
+                    <p class="species">Species</p>
+                    <h2 class="species-ans">Human</h2>
+                    <p class="desc">Description</p>
+                    <h2 class="desc-ans">The princess of Sarasaland and a recurring character in the Mario franchise.
+                    </h2>
+                    <p class="unlock">Unlockable in Mario Kart Wii</p>
+                    <h2 class="unlock-ans">Win 150cc Special Cup.</h2>
+                </div>
+            </div>
+            <!-- Yoshi -->
+            <div class="col-10 col-lg-3 col-md-5 box">
+                <div class="row">
+                    <h2 class="character-name">Yoshi</h2>
+                </div>
+                <div class="row justify-content-center">
+                    <img src="https://i.ibb.co/2v8N5JK/13.png" class="character-pic">
+                </div>
+                <div class="row">
+                    <p class="species">Species</p>
+                    <h2 class="species-ans">Dinosaur</h2>
+                    <p class="desc">Description</p>
+                    <h2 class="desc-ans">A dinosaur-like character that acts as an ally of Mario and Luigi and is the
+                        protagonist of his own franchise. </h2>
+                    <p class="unlock">Unlockable in Mario Kart Wii</p>
+                    <h2 class="unlock-ans">Already Unlocked in Mario Kart Wii.</h2>
+                </div>
+            </div>
+            <!-- Birdo -->
+            <div class="col-10 col-lg-3 col-md-5 box">
+                <div class="row">
+                    <h2 class="character-name">Birdo</h2>
+                </div>
+                <div class="row justify-content-center">
+                    <img src="https://i.ibb.co/vZZ9m1R/14.png" class="character-pic">
+                </div>
+                <div class="row">
+                    <p class="species">Species</p>
+                    <h2 class="species-ans">Dinosaur</h2>
+                    <p class="desc">Description</p>
+                    <h2 class="desc-ans">Also self-referred to as Birdetta, a prehistoric dinosaur,
+                        is identified in some early sources as a bird with a funnel-shaped mouth from which she can spit
+                        eggs.</h2>
+                    <p class="unlock">Unlockable in Mario Kart Wii</p>
+                    <h2 class="unlock-ans">Play 16 races on time trials/Play 250 online Races.</h2>
+                </div>
+            </div>
+            <!-- Diddy Kong -->
+            <div class="col-10 col-lg-3 col-md-5 box">
+                <div class="row">
+                    <h2 class="character-name">Diddy Kong</h2>
+                </div>
+                <div class="row justify-content-center">
+                    <img src="https://i.ibb.co/t8vXpQF/15.png" class="character-pic">
+                </div>
+                <div class="row">
+                    <p class="species">Species</p>
+                    <h2 class="species-ans">Monkey</h2>
+                    <p class="desc">Description</p>
+                    <h2 class="desc-ans">The deuteragonist of the Donkey Kong franchise and Donkey Kong's best friend
+                        and sidekick</h2>
+                    <p class="unlock">Unlockable in Mario Kart Wii</p>
+                    <h2 class="unlock-ans">Win 50cc Lightning cup.</h2>
+                </div>
+            </div>
+            <!-- Bowser Jr. -->
+            <div class="col-10 col-lg-3 col-md-5 box">
+                <div class="row">
+                    <h2 class="character-name">Bowser Jr.</h2>
+                </div>
+                <div class="row justify-content-center">
+                    <img src="https://i.ibb.co/C2K5CQG/16.png" class="character-pic">
+                </div>
+                <div class="row">
+                    <p class="species">Species</p>
+                    <h2 class="species-ans">Koopa</h2>
+                    <p class="desc">Description</p>
+                    <h2 class="desc-ans">The son of Bowser and serves as the prince of the Koopas, heir to the throne to
+                        be the future king. </h2>
+                    <p class="unlock">Unlockable in Mario Kart Wii</p>
+                    <h2 class="unlock-ans">Get a Star Ranking in every 100cc Retro cup (Shell, Banana, Leaf, Lightning).
+                    </h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="row category">
+            <h2 class="category-name">THE HEAVYWEIGHT GROUP</h2>
+        </div>
+
+        <div class="row justify-content-center">
+            <!-- mediumweight characters -->
+            <!-- Wario -->
+            <div class="col-10 col-lg-3 col-md-5 box">
+                <div class="row">
+                    <h2 class="character-name">Wario</h2>
+                </div>
+                <div class="row justify-content-center">
+                    <img src="https://i.ibb.co/0rBKcDN/17.png" class="character-pic">
+                </div>
+                <div class="row">
+                    <p class="species">Species</p>
+                    <h2 class="species-ans">Human</h2>
+                    <p class="desc">Description</p>
+                    <h2 class="desc-ans">He is a muscular, hot-tempered, obese, and greedy character, usually playing
+                        the role of an anti-hero or an antagonist</h2>
+                    <p class="unlock">Unlockable in Mario Kart Wii</p>
+                    <h2 class="unlock-ans">Already Unlocked in Mario Kart Wii.</h2>
+                </div>
+            </div>
+            <!-- Waluigi -->
+            <div class="col-10 col-lg-3 col-md-5 box">
+                <div class="row">
+                    <h2 class="character-name">Waluigi</h2>
+                </div>
+                <div class="row justify-content-center">
+                    <img src="https://i.ibb.co/4Kr7XLL/18.png" class="character-pic">
+                </div>
+                <div class="row">
+                    <p class="species">Species</p>
+                    <h2 class="species-ans">Human</h2>
+                    <p class="desc">Description</p>
+                    <h2 class="desc-ans">A tall man with a narrow face and a pointy, thin mustache, playing the role of Luigi's lanky rival and Wario's partner</h2>
+                    <p class="unlock">Unlockable in Mario Kart Wii</p>
+                    <h2 class="unlock-ans">Already Unlocked in Mario Kart Wii.</h2>
+                </div>
+            </div>
+            <!-- Donkey Kong -->
+            <div class="col-10 col-lg-3 col-md-5 box">
+                <div class="row">
+                    <h2 class="character-name">Donkey Kong</h2>
+                </div>
+                <div class="row justify-content-center">
+                    <img src="https://i.ibb.co/PTpJSqP/19.png" class="character-pic">
+                </div>
+                <div class="row">
+                    <p class="species">Species</p>
+                    <h2 class="species-ans">Monkey</h2>
+                    <p class="desc">Description</p>
+                    <h2 class="desc-ans">He is a powerful and carefree Kong that lives in Donkey Kong Island, and he
+                        likes to collect bananas and spend time with his friends, particularly his best friend and
+                        sidekick Diddy Kong.</h2>
+                    <p class="unlock">Unlockable in Mario Kart Wii</p>
+                    <h2 class="unlock-ans">Already Unlocked in Mario Kart Wii.</h2>
+                </div>
+            </div>
+            <!-- Bowser -->
+            <div class="col-10 col-lg-3 col-md-5 box">
+                <div class="row">
+                    <h2 class="character-name">Bowser</h2>
+                </div>
+                <div class="row justify-content-center">
+                    <img src="https://i.ibb.co/Wyg4Sp9/20.png" class="character-pic">
+                </div>
+                <div class="row">
+                    <p class="species">Species</p>
+                    <h2 class="species-ans">Koopa</h2>
+                    <p class="desc">Description</p>
+                    <h2 class="desc-ans">He is a large, powerful, fire-breathing Koopa who leads the Koopa Troop, an
+                        evil kingdom of turtle-like creatures, and has been the arch-nemesis of Mario since his debut in
+                        Super Mario Bros.</h2>
+                    <p class="unlock">Unlockable in Mario Kart Wii</p>
+                    <h2 class="unlock-ans">Already Unlocked in Mario Kart Wii.</h2>
+                </div>
+            </div>
+            <!-- King Boo -->
+            <div class="col-10 col-lg-3 col-md-5 box">
+                <div class="row">
+                    <h2 class="character-name">King Boo</h2>
+                </div>
+                <div class="row justify-content-center">
+                    <img src="https://i.ibb.co/TKVTt5c/21.png" class="character-pic">
+                </div>
+                <div class="row">
+                    <p class="species">Species</p>
+                    <h2 class="species-ans">Ghost</h2>
+                    <p class="desc">Description</p>
+                    <h2 class="desc-ans">The leader of the Boos and ghosts, the main antagonist of the Luigi's Mansion
+                        series, and the arch-nemesis of Luigi.</h2>
+                    <p class="unlock">Unlockable in Mario Kart Wii.</p>
+                    <h2 class="unlock-ans">Win 50cc Star Cup</h2>
+                </div>
+            </div>
+            <!-- Rosalina -->
+            <div class="col-10 col-lg-3 col-md-5 box">
+                <div class="row">
+                    <h2 class="character-name">Rosalina</h2>
+                </div>
+                <div class="row justify-content-center">
+                    <img src="https://i.ibb.co/mHCcxRt/22.png" class="character-pic">
+                </div>
+                <div class="row">
+                    <p class="species">Species</p>
+                    <h2 class="species-ans">Human</h2>
+                    <p class="desc">Description</p>
+                    <h2 class="desc-ans">She is a very powerful figure, as her duty is to watch over and protect the
+                        cosmos, while also serving as the adopted mother of the Lumas and commanding the Comet
+                        Observatory.</h2>
+                    <p class="unlock">Unlockable in Mario Kart Wii</p>
+                    <h2 class="unlock-ans">Score a star rank in every Mirror Mode cup/Have a save file on Super Mario
+                        Galaxy.</h2>
+                </div>
+            </div>
+            <!-- Funky Kong -->
+            <div class="col-10 col-lg-3 col-md-5 box">
+                <div class="row">
+                    <h2 class="character-name">Funky Kong</h2>
+                </div>
+                <div class="row justify-content-center">
+                    <img src="https://i.ibb.co/QmdmFbS/23.png" class="character-pic">
+                </div>
+                <div class="row">
+                    <p class="species">Species</p>
+                    <h2 class="species-ans">Monkey</h2>
+                    <p class="desc">Description</p>
+                    <h2 class="desc-ans">While portrayed as an easygoing surfer, Funky is a very skilled mechanic,
+                        creating many vehicles and other inventions from limited materials, namely barrels.</h2>
+                    <p class="unlock">Unlockable in Mario Kart Wii.</p>
+                    <h2 class="unlock-ans">Unlock 4 Fast Staff ghosts</h2>
+                </div>
+            </div>
+            <!-- Dry Bowser -->
+            <div class="col-10 col-lg-3 col-md-5 box">
+                <div class="row">
+                    <h2 class="character-name">Dry Bowser</h2>
+                </div>
+                <div class="row justify-content-center">
+                    <img src="https://i.ibb.co/PmXwXbx/24.png" class="character-pic">
+                </div>
+                <div class="row">
+                    <p class="species">Species</p>
+                    <h2 class="species-ans">Skeletal Koopa</h2>
+                    <p class="desc">Description</p>
+                    <h2 class="desc-ans"> The undead and skeletal version of Bowser, closely associated with them and
+                        shares several traits with the species, like an immunity to fireballs.</h2>
+                    <p class="unlock">Unlockable in Mario Kart Wii</p>
+                    <h2 class="unlock-ans">Get A star ranking in the 150cc Nitro Cups (Mushroom, Flower, Star, Special).
+                    </h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="row footer">
+            <div class="row justify-content-center">
+                <img src="https://i.ibb.co/PjC4mX2/mario-kart-1.png" class="nintendo-logo-bw">
+            </div>
+            <div class="row">
+                <p class="footer-subtitle">© 2023 Mario Kart Nintendo Wii. All Rights Reserved.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Get the button
+        let mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+</body>
+
+
+</html>

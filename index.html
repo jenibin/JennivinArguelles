@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Title of Website -->
+    <title>
+        Jennivin Arguelles
+    </title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!-- Logo -->
+    <link rel="small icon" href="Elements/logo.png">
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+
+<body>
+    <div class="main-container">
+
+        <!-- Home -->
+        <div class="home-container" id="home">
+            <!-- Animated Background -->
+            <div class="bg"></div>
+            <div class="bg bg2"></div>
+            <div class="bg bg3"></div>
+
+            <!-- Information Text -->
+            <div class="information-container">
+
+                <!-- Introduction -->
+                <div class="about-me">
+                    <p class="hello">Hello, I'm</p>
+                    <h1 class="first-name">Jennivin </h1>
+                    <h1 class="last-name">Arguelles</h1>
+                    <p class="IT">An Information Technology student</p>
+                    <p class="third-year">I'm at my 4th year studying at Polytechnic University of the Philippines Sto.
+                        Tomas Branch in Batangas, and here is my portfolio!</p>
+                </div>
+
+                <!-- Send Message Button -->
+                <div class="send-message-container">
+                    <a class="send-message-button" target="_blank"
+                        href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJNsMMGgqvNgWXPbxXMhNzjjwjHxNxNChDWPmMzFLBHmBZdmRvDTsNHBwbDGtfkzjhGhJgq">Wanna
+                        talk? Send me a message!</a>
+                </div>
+
+                <!-- Social Media Buttons -->
+                <div class="social-medias-container">
+                    <a href="https://www.facebook.com/arguelles.jennivin/" target="_blank"><img
+                            src="Elements/social media/fb.png" class="social-media"></a>
+                    <a href="https://www.linkedin.com/in/arguellesjennivin/" target="_blank"><img
+                            src="Elements/social media/linkedin.png" class="social-media"></a>
+                    <a href="https://www.instagram.com/binnification/" target="_blank"><img
+                            src="Elements/social media/ig.png" class="social-media"></a>
+                    <a href="https://www.twitter.com/binnification" target="_blank"><img
+                            src="Elements/social media/twitter.png" class="social-media"></a>
+                </div>
+            </div>
+
+            <!-- My Picture -->
+            <div class="picture-container">
+                <img src="Elements/jennivin picture.png" class="jennivin-picture">
+            </div>
+        </div>
+
+        <!-- Desktop View Navbar -->
+        <div id="navbar">
+            <img class="logo-navbar" src="Elements/logo.png">
+            <div class="navbar-contents">
+                <a href="#education" class="btn">EDUCATION</a>
+                <a href="#works" class="btn">WORKS</a>
+                <a href="#skills" class="btn">SKILLS</a>
+                <a href="#home" class="btn active">HOME</a>
+            </div>
+            <!-- The Hamburger Menu -->
+            <span class="burger" onclick="openNav()">&#9776;</span>
+        </div>
+
+        <!-- Mobile View Sidebar -->
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#home">HOME</a>
+            <a href="#skills">SKILLS</a>
+            <a href="#works">WORKS</a>
+            <a href="#education">EDUCATION</a>
+        </div>
+
+        <!-- Skills -->
+        <div class="skills-container" id="skills">
+
+            <!-- Skills: Title -->
+            <div class="pl-text">
+                <p class="programming">Programming</p>
+                <p class="languages">Languages</p>
+                <p class="text">I know</p>
+            </div>
+
+            <!-- Programming Languages -->
+            <div class="row justify-content-center languages-icons">
+                <div class="col-6 col-sm-4 col-lg-2 col-md-4" data-aos="flip-left" data-aos-duration="1000">
+                    <div class="row justify-content-center icon-div">
+                        <img class="pl-icon" src="Elements/programming languages/html.png">
+                        <p>HTML</p>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-lg-2 col-md-4" data-aos="flip-left" data-aos-duration="1400">
+                    <div class="row justify-content-center icon-div">
+                        <img class="pl-icon" src="Elements/programming languages/css.png">
+                        <p>CSS</p>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-lg-2 col-md-4" data-aos="flip-left" data-aos-duration="1800">
+                    <div class="row justify-content-center icon-div">
+                        <img class="pl-icon" src="Elements/programming languages/javascript.png">
+                        <p>Javascript</p>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-lg-2 col-md-4" data-aos="flip-left" data-aos-duration="2200">
+                    <div class="row justify-content-center icon-div">
+                        <img class="pl-icon" src="Elements/programming languages/java.png">
+                        <p>Java</p>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-lg-2 col-md-4" data-aos="flip-left" data-aos-duration="2600">
+                    <div class="row justify-content-center icon-div">
+                        <img class="pl-icon" src="Elements/programming languages/php.png">
+                        <p>PHP</p>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-lg-2 col-md-4" data-aos="flip-left" data-aos-duration="3000">
+                    <div class="row justify-content-center icon-div">
+                        <img class="pl-icon" src="Elements/programming languages/c++.png">
+                        <p>C++</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Works: Designer -->
+        <div class="designer-container" id="works">
+
+            <!-- Designer: Title -->
+            <div class="designer-text" data-aos="fade-up" data-aos-duration="500">
+                <p class="designer-p">I am also a</p>
+                <img src="Elements/designer.png" class="designer-pic">
+            </div>
+
+            <!-- Designer: Carousel -->
+            <div class="designer-slider" data-aos="fade-up" data-aos-duration="1000">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <a href="Bloom Website/index.html" target="_blank">
+                                <img src="Elements/web designs/bloom.png" style="width:100%;"> </a>
+                        </div>
+ 
+                        <div class="item">
+                            <a href="Mario Kart Website/index.html" target="_blank">
+                                <img src="Elements/web designs/mario kart.png" style="width:100%;"> </a>
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Works: Artist -->
+        <div class="artist-container">
+
+            <!-- Artist: Carousel -->
+            <div class="artist-slider" data-aos="fade-up" data-aos-duration="1000">
+                <div id="myCarousel1" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel1" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel1" data-slide-to="1"></li>
+                        <li data-target="#myCarousel1" data-slide-to="2"></li>
+                        <li data-target="#myCarousel1" data-slide-to="3"></li>
+                        <li data-target="#myCarousel1" data-slide-to="4"></li>
+                        <li data-target="#myCarousel1" data-slide-to="5"></li>
+                        <li data-target="#myCarousel1" data-slide-to="6"></li>
+                        <li data-target="#myCarousel1" data-slide-to="7"></li>
+                        <li data-target="#myCarousel1" data-slide-to="8"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="Elements/art/pixel.png" style="width:100%;">
+                        </div>
+
+                        <div class="item">
+                            <img src="Elements/art/beomgyu black.png" style="width:100%;">
+                        </div>
+
+                        <div class="item">
+                            <img src="Elements/art/beomgyu brown.png" style="width:100%;">
+                        </div>
+
+                        <div class="item">
+                            <img src="Elements/art/Curly.png" style="width:100%;">
+                        </div>
+
+                        <div class="item">
+                            <img src="Elements/art/ghibli.png" style="width:100%;">
+                        </div>
+
+                        <div class="item">
+                            <img src="Elements/art/haikyu.png" style="width:100%;">
+                        </div>
+
+                        <div class="item">
+                            <img src="Elements/art/webtoon.png" style="width:100%;">
+                        </div>
+
+                        <div class="item">
+                            <a href="https://www.facebook.com/photo.php?fbid=191505926736370&set=pb.100076308911241.-2207520000.&type=3"
+                                target="_blank">
+                                <img src="Elements/art/luminous.png" style="width:100%;"></a>
+                        </div>
+
+                        <div class="item">
+                            <a href="https://www.facebook.com/photo.php?fbid=214417157778580&set=pb.100076308911241.-2207520000.&type=3"
+                                target="_blank">
+                                <img src="Elements/art/dream dare deliver.jpg" style="width:100%;"> </a>
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel1" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel1" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Artist: Title -->
+            <div class="artist-text" data-aos="fade-up" data-aos-duration="500">
+                <p class="artist-p">and an</p>
+                <img src="Elements/artist.png" class="artist-pic">
+            </div>
+        </div>
+
+        <!-- Designing Tools -->
+        <div class="tool-container">
+
+            <!-- My Cartoon -->
+            <div class="jennivin-cartoon-div">
+                <img src="Elements/jennivin cartoon.png" class="jennivin-cartoon">
+            </div>
+
+            <!-- Design Tools: Title -->
+            <div class="design-tools">
+                <div class="dt-text">
+                    <p class="design">Design</p>
+                    <p class="tools">Tools</p>
+                    <p class="text">I use</p>
+                </div>
+
+                <!-- Design Tools: Icons -->
+                <div class="tools-icon">
+                    <div class="design-tool-div" data-aos="fade-up" data-aos-duration="1000">
+                        <img src="Elements/design tools/ibis paint x.png" class="tool">
+                        <p class="tool-name">Ibis Paint X</p>
+                        <p class="tool-details">Been using since 2020 up to present </p>
+                    </div>
+                    <div class="design-tool-div" data-aos="fade-up" data-aos-duration="1500">
+                        <img src="Elements/design tools/canva.png" class="tool">
+                        <p class="tool-name">Canva</p>
+                        <p class="tool-details">Been using since 2021 up to present </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Education -->
+        <div class="education-container" id="education">
+
+            <!-- Education: Title -->
+            <div class="educ-text-div">
+                <p class="educ-text">Education</p>
+            </div>
+
+            <!-- Education: Boxes -->
+            <div class="row justify-content-center educ-div">
+
+                <!-- SJCP -->
+                <div class="col-10 col-lg-3 col-md-5 box" data-aos="fade-up" data-aos-duration="800">
+                    <div class="row justify-content-center">
+                        <img src="Elements/schools/sjc.png" class="school-logo">
+                    </div>
+                    <div class="row">
+                        <p class="school-name">St. James College of Parañaque</p>
+                        <p class="year">2008 to 2012 - Elementary</p>
+                        <p class="achievements">With Honors<br>
+                            Represented Netherlands for Little Miss United Nations<br>
+                            Secretary Officer in class</p>
+                    </div>
+                </div>
+
+                <!-- JHM -->
+                <div class="col-10 col-lg-3 col-md-5 box" data-aos="fade-up" data-aos-duration="1200">
+                    <div class="row justify-content-center">
+                        <img src="Elements/schools/john shannon.png" class="school-logo">
+                    </div>
+                    <div class="row">
+                        <p class="school-name">John Shannon Montessori</p>
+                        <p class="year">2012 to 2013 - Elementary</p>
+                        <p class="achievements">Top 2 - With High Honors<br>
+                            Secretary Officer in class </p>
+                    </div>
+                </div>
+
+                <!-- VLC -->
+                <div class="col-10 col-lg-3 col-md-5 box" data-aos="fade-up" data-aos-duration="1600">
+                    <div class="row justify-content-center">
+                        <img src="Elements/schools/vlc.png" class="school-logo">
+                    </div>
+                    <div class="row">
+                        <p class="school-name">Veritas Learning Center</p>
+                        <p class="year">2013 to 2014 - Elementary</p>
+                        <p class="achievements">With Honors<br>
+                            Candidate for their founding anniversary float pageant</p>
+                    </div>
+                </div>
+
+                <!-- MDSI -->
+                <div class="col-10 col-lg-3 col-md-5 box" data-aos="fade-up" data-aos-duration="2000">
+                    <div class="row justify-content-center">
+                        <img src="Elements/schools/mdsi.png" class="school-logo">
+                    </div>
+                    <div class="row">
+                        <p class="school-name">Montessori De San Ildefonso</p>
+                        <p class="year">2014 to 2015 - Junior Highschool</p>
+                        <p class="achievements">6th place in cheeleading team</p>
+                    </div>
+                </div>
+
+                <!-- UCA -->
+                <div class="col-10 col-lg-3 col-md-5 box" data-aos="fade-up" data-aos-duration="2400">
+                    <div class="row justify-content-center">
+                        <img src="Elements/schools/uca.png" class="school-logo">
+                    </div>
+                    <div class="row">
+                        <p class="school-name">United Christian Academy</p>
+                        <p class="year">2015 to 2020 - Junior and Senior Highschool </p>
+                        <p class="achievements">Ranges from Top 1 to 3 - With High Honors <br>
+                            S4 CDT Major Officer 2017-2018 <br>
+                            2nd Runner-up in UCA Got Talent Dance Competition</p>
+                    </div>
+                </div>
+
+                <!-- PUP -->
+                <div class="col-10 col-lg-3 col-md-5 box" data-aos="fade-up" data-aos-duration="2800">
+                    <div class="row justify-content-center">
+                        <img src="Elements/schools/pup.png" class="school-logo">
+                    </div>
+                    <div class="row">
+                        <p class="school-name">Polytechnic University of the Phiippines - Sto. Tomas, Batangas</p>
+                        <p class="year">2020 to present - College</p>
+                        <p class="achievements">President's Lister from 1st Year to 3rd Year (1st Sem)<br>
+                            President of class in 2020-2021<br>
+                            Graphic Design Lead in Google Developer Students Club<br>
+                            Public Relations Officer of Computer Sociery in 2020-2021</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer-container">
+            <div class="logo-footer">
+                <img src="Elements/logo.png" class="logo-footer-pic">
+            </div>
+            <p class="quote">"Creativity is intelligence having fun." -Albert Einstein</p>
+            <p class="copyright">© 2023 Jennivin Arguelles Portfolio. All Rights Reserved.</p>
+        </div>
+
+
+    </div>
+
+    <script>
+        // Animation
+        AOS.init();
+
+        // Navbar
+        window.onscroll = function () { myFunction() };
+
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+
+        var header = document.getElementById("navbar");
+        var btns = header.getElementsByClassName("btn");
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function () {
+                var current = document.getElementsByClassName("active");
+                current[0].className = current[0].className.replace(" active", "");
+                this.className += " active";
+            });
+        }
+
+        // Sidebar in Mobile View
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "140px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+</body>
